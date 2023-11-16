@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('img/fondo.png');
+    background-size: cover;
+    font-family: 'Comfortaa', sans-serif;
+}
+#gameCanvas {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #ffffff;
+    background-image: url('img/pantalla.png'); /* Fondo específico para el canvas */
+    background-size: cover;
+}
+
+.titlegame {
+    text-align: center;
+    font-size: 36px;
+    color: #ffffff;
+    margin-top: 20px;
+}
+canvas {
+    display: block;
+    margin: 20px auto; /* Centra el canvas en la pantalla */
+    border: 2px solid #1a6d3f; /* Borde blanco alrededor del canvas */
+}
+
+.startPause-button, .reset-button {
+    font-family: 'DotGothic16', sans-serif; /* Utiliza la fuente DotGothic16 para los botones */
+    background-color: #4CAF50; /* Color de fondo del botón (verde) */
+    color: white; /* Color del texto del botón (blanco) */
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.instrucciones {
+    text-align: center;
+    margin: 20px;
+    color: #ffffff; /* Color del texto de las instrucciones */
+    margin-top: -100px;
+}
+
+.keys {
+    max-width: 100%;
+}
+
